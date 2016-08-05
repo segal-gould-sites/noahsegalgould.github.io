@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Noah Segal-Gould</title>
+	<!--[if lte IE 8]>
+  		<link rel="stylesheet" href="pure-ie.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+  		<link rel="stylesheet" href="../pure.css">
+	<!--<![endif]-->
+	<title>Noah Segal-Gould</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../pure-base.css">
 	<link rel="stylesheet" href="../normalize.css">
 	<link rel="stylesheet" href="../style.css">
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script>
 		$(function() {
 			var pull 		= $('#pull');
 				menu 		= $('nav ul');
 				menuHeight	= menu.height();
-
 			$(pull).on('click', function(e) {
 				e.preventDefault();
 				menu.slideToggle();
 			});
-
 			$(window).resize(function(){
         		var w = $(window).width();
         		if(w > 320 && menu.is(':hidden')) {
