@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noah Segal-Gould Events</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../normalize.css">
+	<link rel="stylesheet" href="../style.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body>
+	<nav class="clearfix">
+		<ul class="clearfix">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../about/">About</a></li>
+			<li><a href="../events/">Events</a></li>
+			<li><a href="../resources/">Resources</a></li>
+		</ul>
+		<a href="../index.html" id="pull">Noah Segal-Gould</a>
+	</nav>
+<div class="pure-g">
+	<div class="pure-u-1">
+		<div class="l-box">
+			<h2>
+				Hour of Code:
+			</h2>
+			<p>
+				The Hour of Code is a one-hour introduction to computer science, designed to demystify code and show that anybody can learn the basics. Learn more <a href="https://hourofcode.com/us">here</a>.
+			</p>
+			<h2>
+				CS Weekend:
+			</h2>
+			<p>
+				The Computing in the Sciences club has a weekend. Sign up and let us know what you'd like to learn:
+			</p>
+			<iframe src='../contact/contactform.php' frameborder='0' width='100%' height='600' ></iframe>
+		</div>
+	</div>
+</div>
+</body>
+</html>
