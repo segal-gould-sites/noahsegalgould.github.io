@@ -11,9 +11,12 @@
     *zoom: 1;
 }
 
+div {
+    border: 2px solid #be1d23;
+    border-radius: 10px
+}
 .l-box {
 	padding: 1em;
-	border: 2px solid #be1d23;
 }
 
 /* Basic Styles */
