@@ -1,5 +1,10 @@
+code {
+	background-color: gray;
+	color: #e6e6e6;
+	border:1px solid #be1d23;
+}
 input {
-	width:70%;
+	width:100%;
 	color: #e6e6e6;
 	background:gray;
 	padding: 4px;
