@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="eliza.js"></script>
 	<script>
 		$(function() {
 			var pull 		= $('#pull');
@@ -64,7 +65,8 @@
 	</div>
 	<div class="pure-u-2-3">
 		<div class="l-box">
-			<iframe src="https://calendar.google.com/calendar/embed?title=Noah%27s%20Schedule&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=3oimtg24usbipk53jmkmm62egk%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+			<input type="text" name="query" id="query" value="Are you a robot?">
+    			<button id = "submit" onclick="interact()">Discuss</button>
 		</div>
 	</div>
 </div>
