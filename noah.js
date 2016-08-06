@@ -6,6 +6,9 @@
  */
 
 var rules = {
+  "What's your name?": [
+    "I\'m Noah, of course."
+  ],
   "~*x hello ~*y": [
     "Hey there. I'm Noah."
   ],
