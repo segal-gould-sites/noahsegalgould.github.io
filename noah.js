@@ -245,7 +245,7 @@ function interact() {
   response = response[0].toUpperCase() + response.slice(1); //capitalize first letter
   var r = document.getElementById("responses");
   
-  r.innerHTML = "YOU:" + q.value + "<br>" + r.innerHTML ;
+  r.innerHTML = "YOU:&nbsp;" + q.value + "<br>" + r.innerHTML ;
   r.innerHTML = "NOAH: <code>" + response + "</code><br>" + r.innerHTML ;
   q.value = "";
 }
