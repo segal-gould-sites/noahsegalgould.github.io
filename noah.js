@@ -6,11 +6,19 @@
  */
 
 var rules = {
-  "What's your name?": [
-    "I\'m Noah, of course."
+  "What\'s your name?": [
+    "I\'m Noah, of course.",
+  ],
+  "test": [
+    "You have uncovered the secrets of my very being. Well done.",
+  ],
+  "Will you ~*x?": [
+    "I refuse.",
+    "Of course.",
+    "Give me a reason.",
   ],
   "~*x hello ~*y": [
-    "Hey there. I'm Noah."
+    "Hey there. I'm Noah.",
   ],
   "~*x computer ~*y": [
     "I may be a computer, but even I have feelings!",
