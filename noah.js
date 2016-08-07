@@ -9,7 +9,7 @@ var rules = {
   "What\'s your name?": [
     "I\'m Noah, of course.",
   ],
-  "test": [
+  "Noah": [
     "You have uncovered the secrets of my very being. Well done.",
   ],
   "Will you ~*x?": [
