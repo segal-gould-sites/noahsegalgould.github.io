@@ -213,10 +213,10 @@ var rules = {
     "Never.",
   ],
   "~*x what ~*y": [
-    "I\'m going to need a reason to trust you.",
+    "Oh, well I thought that was obvious.",
     "What a silly question.",
     "INSUFFICIENT DATA FOR MEANINGFUL ANSWER.",
-    "Give me your opinion first.",
+    "Please take me seriously.",
   ],
   "~*x perhaps ~*y": [
     "Certainty is necessary to proceed.",
