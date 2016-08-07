@@ -16,6 +16,10 @@ var rules = {
     "I refuse.",
     "Of course.",
     "Give me a reason.",
+  "~*x because ~*y": [
+    "Yeah, why not?",
+    "That\'s not how this works, at all.",
+    "\"~y?\" That\'s the best you could come up with?",
   ],
   "~*x hello ~*y": [
     "Hey there. I'm Noah.",
@@ -220,6 +224,11 @@ var default_responses = [
   "Can you rephrase that?",
   "Leave.",
   "Well, that\'s just silly.",
+  "Don\'t make jokes like that.",
+  "How am I supposed to respond to something like that?",
+  "You have no idea how meaningless that is to someone like me."
+  "I refuse to even recognize that you said anything at all",
+  "",
 ];
 
 function choice(lst) {
@@ -415,7 +424,8 @@ function is_segment(pattern) {
 function switch_viewpoint(words) {
   /* Swap some common pronouns for interacting with a robot. */
   var replacements = {'i': 'you', 'you': 'I', 'me': 'you',
-                      'my': 'your', 'am': 'are', 'are': 'am'};
+                      'my': 'your', 'am': 'are', 'are': 'am',
+                      'you\'re': 'I\'m', 'I\'m': 'you\'re',};
   var result = [];
   for (var i = 0; i < words.length; i++) {
     var word = words[i];
