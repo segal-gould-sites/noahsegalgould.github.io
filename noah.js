@@ -16,6 +16,7 @@ var rules = {
     "I refuse.",
     "Of course.",
     "Give me a reason.",
+  ],
   "~*x because ~*y": [
     "Yeah, why not?",
     "That\'s not how this works, at all.",
