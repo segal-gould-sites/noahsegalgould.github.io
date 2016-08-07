@@ -227,7 +227,7 @@ var default_responses = [
   "Well, that\'s just silly.",
   "Don\'t make jokes like that.",
   "How am I supposed to respond to something like that?",
-  "You have no idea how meaningless that is to someone like me."
+  "You have no idea how meaningless that is to someone like me.",
   "I refuse to even recognize that you said anything at all.",
 ];
 
