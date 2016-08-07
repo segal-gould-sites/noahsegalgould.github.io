@@ -6,6 +6,11 @@
  */
 
 var rules = {
+  "~*x trust ~*y": [
+    "Alright, alright. I trust you.",
+    "That\'s a really silly excuse.",
+    "I never implied you didn\'t have my full trust and attention.",
+  ],
   "What\'s your name?": [
     "I\'m Noah, of course.",
   ],
