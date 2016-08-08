@@ -149,13 +149,6 @@ var rules = {
     "I can neither confirm nor deny that ~x are ~y",
     "Give up on ~y!",
   ],
-  "~x is ~*y": [
-    "How can you be so sure?",
-    "~y always confuses me.",
-    "~x is incomprehensible.",
-    "What would it take for things to be ~y?",
-    "What would it take for ~y to be ~x?",
-  ],
   "~*x are you ~*y": [
     "How dare you?!",
     "~y and I have a long history.",
@@ -285,7 +278,7 @@ function respond(input) {
   for (var variable in replacements) {
     var replacement = replacements[variable];
     replacement = switch_viewpoint(replacement).join(' ');
-    if (replacement) response = response.replace('~' + variable, replacement);
+    if (replacement != null) response = response.replace('~' + variable, replacement);
   }
 
   return response;
