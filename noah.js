@@ -181,9 +181,8 @@ var rules = {
     "~y is a strong word.",
   ],
   "~*x why don't you ~*y": [
-    "I ~y all the time!",
-    "Do you think I don't ~y?",
-    "I ~y when I damn well feel like it!",
+    "~y?! What an awful idea",
+    "~y?! I have\'t tried that in ages!",
   ],
   "~*x yes ~*y": [
     "Be careful with that certainty.",
@@ -210,8 +209,10 @@ var rules = {
     "What a silly question.",
     "INSUFFICIENT DATA FOR MEANINGFUL ANSWER.",
     "Please take me seriously.",
-    "No ~y. Absolutely not.",
+    "Just google \'~y.\' Duh.",
     "It\'s really simple if you bother to think abou it.",
+    "~y? ~y what?",
+    "~y, of course.",
   ],
   "~*x perhaps ~*y": [
     "Certainty is necessary to proceed.",
