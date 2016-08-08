@@ -210,7 +210,7 @@ var rules = {
     "INSUFFICIENT DATA FOR MEANINGFUL ANSWER.",
     "Please take me seriously.",
     "Just google \'~y.\' Duh.",
-    "It\'s really simple if you bother to think abou it.",
+    "It\'s really simple if you bother to think about it.",
     "~y? ~y what?",
     "~y, of course.",
   ],
