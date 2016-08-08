@@ -210,9 +210,12 @@ var rules = {
     "What a silly question.",
     "INSUFFICIENT DATA FOR MEANINGFUL ANSWER.",
     "Please take me seriously.",
+    "No ~y. Absolutely not.",
+    "It\'s really simple if you bother to think abou it.",
   ],
   "~*x perhaps ~*y": [
     "Certainty is necessary to proceed.",
+    "Don\'t you doubt me.",
   ],
 };
 
